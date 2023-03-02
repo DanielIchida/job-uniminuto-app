@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clients">
+        <item>Cliente 1</item>
+        <item>Cliente 2</item>
+        <item>Cliente 3</item>
+    </string-array>
+    <string-array name="states">
+        <item>Abierto</item>
+        <item>Cerrado</item>
+        <item>Cambiado</item>
+    </string-array>
+</resources>
