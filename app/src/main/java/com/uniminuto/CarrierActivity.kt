@@ -15,7 +15,7 @@ class CarrierActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnCarrierChange.setOnClickListener {
-            var alertDialog: AlertDialog? = null;
+            val alertDialog: AlertDialog?
             val builder = AlertDialog.Builder(this)
             val inflater = this.layoutInflater
             val view = inflater.inflate(R.layout.dialog_change_ticket,null)

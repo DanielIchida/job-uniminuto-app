@@ -35,6 +35,11 @@ android {
         viewBinding true
         dataBinding true
     }
+    sonar {
+        properties {
+            property "sonar.exclusions", "**/*Generated.java"
+        }
+    }
 }
 
 dependencies {
